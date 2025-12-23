@@ -1,5 +1,5 @@
 {% set name = "geodatasets" %}
-{% set version = "2025.12.0" %}
+{% set version = "2025.12.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: cd0f23166e8bfa7dced34db0d096b75ba4df0fde59ab44421217cf1f9587a9bf
+  sha256: 20a9e8055e9425689a0d88d46bbfc5bd2e821d6a14cfd3c9c3a8166e3a0daad0
 
 build:
   number: 0
